@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #030c23;
+  color: #fafafa;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#question-text {
+  text-align: left;
+  padding: 8px;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.question-box {
+  background-color: #020b1bc8;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 20px 40px;
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.8);
+}
+
+.options {
+  list-style: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.option {
+  font-size: 1rem;
+  width: 100%;
+  height: auto;
+  text-align: left;
+  padding: 13px 15px;
+  margin: 10px 0;
+  border: 1px solid rgb(26, 26, 81);
+  border-radius: 4px;
+  background-color: rgb(26, 26, 81);
+  color: #fafafa;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgb(26, 26, 81, 0.6);
+  transition: all 0.4s ease-in-out;
+}
+
+.option:hover {
+  background: transparent;
+  border: 1px solid rgb(26, 26, 81);
+}
+
+.controls .btns {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
+}
+
+#submit-btn {
+  font-size: 1rem;
+  height: auto;
+  width: 100px;
+  padding: 5px 10px;
+  margin: 10px;
+  border: 1px solid rgb(9, 170, 73);
+  outline: none;
+  border-radius: 4px;
+  background-color: rgb(9, 170, 73);
+  color: #fafafa;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgb(9, 170, 73, 0.6);
+  transition: all 0.4s ease-in-out;
+}
+
+#submit-btn:hover {
+  background: transparent;
+  border: 1px solid rgb(9, 170, 73);
+}
+
+.controls .others {
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+}
+
+#score {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(9, 170, 73);
+}
+
+@media (min-width: 350px) and (max-width: 530px) {
+  .question-box {
+    padding: 10px 25px;
+    max-width: 300px;
+  }
+
+  .question-text {
+    font-size: 1rem;
+  }
+
+  .option {
+    font-size: 14px;
+    padding: 6px 10px;
+    margin: 10px 0;
+  }
+
+  .submitBtn {
+    font-size: 15px;
+  }
+
+  #score {
+    font-size: 1rem;
+  }
+}
