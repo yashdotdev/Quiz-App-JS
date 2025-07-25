@@ -4,7 +4,7 @@ A beginner-friendly quiz application built with **HTML**, **CSS**, and **JavaScr
 
 ## 🌐 Live Demo
 
-[Click here to try the app](link)  
+[Click here to try the app](https://trivia-quiz-app-js.netlify.app)  
 
 ---
 
