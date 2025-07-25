@@ -109,7 +109,7 @@ body {
     max-width: 300px;
   }
 
-  .question-text {
+  #question-text {
     font-size: 1rem;
   }
 
