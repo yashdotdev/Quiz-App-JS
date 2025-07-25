@@ -13,7 +13,7 @@ let quesNumber = 1;
 async function fetchQuestions() {
   try {
     const response = await fetch(
-      "https://opentdb.com/api.php?amount=10&category=14&type=multiple"
+      "https://opentdb.com/api.php?amount=10&category=18&type=multiple"
     );
     if (!response.ok) {
       throw new Error("Something went wrong!! Unable to fetch the data");
