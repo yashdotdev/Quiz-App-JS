@@ -34,7 +34,7 @@ html, body {
   background-color: #020b1bc8;
   border: 1px solid white;
   border-radius: 10px;
-  padding: 20px 40px;
+  padding: 30px;
   max-width: 500px;
   width: 100%;
   height: auto;
@@ -123,7 +123,7 @@ html, body {
     margin: 10px 0;
   }
 
-  .submitBtn {
+  #submitBtn {
     font-size: 15px;
   }
 
