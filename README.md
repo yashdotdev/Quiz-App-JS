@@ -1,14 +1,14 @@
-# 🎯 Trivia Quiz App
+# Trivia Quiz App
 
 A beginner-friendly quiz application built with **HTML**, **CSS**, and **JavaScript**, using the **Open Trivia API** to fetch live quiz questions dynamically.
 
-## 🌐 Live Demo
+## Live
 
 [Click here to try the app](https://trivia-quiz-app-js.netlify.app)  
 
 ---
 
-## ✨ Features
+## Features
 
 - 🔄 Fetches real-time questions using [Open Trivia API](https://opentdb.com/)
 - 🎲 Shuffles answer options randomly each time
@@ -18,6 +18,6 @@ A beginner-friendly quiz application built with **HTML**, **CSS**, and **JavaScr
 
 ---
 
-## 📸 Preview
+## Preview
 
 ![Quiz App Screenshot](screenshot.png)
