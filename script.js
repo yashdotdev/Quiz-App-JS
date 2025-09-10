@@ -99,7 +99,7 @@ function submitQuiz() {
 
   submitBtn.remove();
 
-  score.innerHTML = `<h3>Quiz Completed! ✅ </h3>
+  score.innerHTML = `<h3>Quiz Submitted! ✅ </h3>
     <p>Correct: ${currentScore}</p>
     <p>Incorrect: ${(quesNumber - currentScore) - 1}</p>`;
 
