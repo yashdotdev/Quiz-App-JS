@@ -60,28 +60,26 @@ function showQues() {
 
 function handleOptionClick(selectedAnswer, questionObject) {
   if (selectedAnswer === questionObject.correct_answer) {
-    
     if (currentIndex >= 10) {
       options.forEach((btn) => {
         btn.disabled = true;
-      })
+      });
       return;
     }
-    
+
     currentIndex++;
     quesNumber++;
     currentScore++;
     score.innerHTML = `Score: ${currentScore}`;
     // console.log(currentScore);
-
   } else if (selectedAnswer !== questionObject.correct_answer) {
-    if(currentIndex === 10) {
+    if (currentIndex === 10) {
       return;
     }
     currentIndex++;
     quesNumber++;
   }
-  
+
   showQues();
 }
 
@@ -101,7 +99,7 @@ function submitQuiz() {
 
   score.innerHTML = `<h3>Quiz Submitted! ✅ </h3>
     <p>Correct: ${currentScore}</p>
-    <p>Incorrect: ${(quesNumber - currentScore) - 1}</p>`;
+    <p>Incorrect: ${quesNumber - currentScore - 1}</p>`;
 
   return;
 }
